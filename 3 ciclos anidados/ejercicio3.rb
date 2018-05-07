@@ -7,9 +7,10 @@ puts "ingresa de que numero quieres ver sus multiplos"
 num1 = gets.chomp.to_i
 num2 = 1
 num3 = 1
-while num3 != 99
+while num3 != 0
 	num4 = num1
 	num2 += 1
 	puts num4 = num1*num2
+	puts "ingrese un 0 para salir, o cualquier tecla para seguir viendo"
 	num3 = gets.chomp.to_i
 end

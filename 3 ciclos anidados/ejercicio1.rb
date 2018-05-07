@@ -9,5 +9,5 @@ Se pide imprimir la secuencia numérica, de la siguiente forma:
 i=1
 4.times do |i|
 	i += 1
-	puts i
+	puts "#{i} #{i*2} #{i*3} #{i*4}"
 end

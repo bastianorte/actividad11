@@ -1,6 +1,7 @@
 # El siguiente programa debería mostrar un menú
 # e imprimirlo reiteradamente hasta que el usuario ingrese la opción número 4.
-puts "Ingresa una opción"
+
+puts "Presiona enter"
 ready = gets.chomp.to_i
 
 while ready != 4
